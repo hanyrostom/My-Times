@@ -1,15 +1,53 @@
 .header{
   display: flex;
+  border-bottom: 2px solid black;
+  padding:0px 12px 6px 12px;
+
+  justify-content: space-between;
+  margin: 0 auto;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   }
 
-.top li {
-  display: inline-block;
+.logo {
+  display: inline-flex;
+  align-items: center;
+}
+.mytimes{
+  position: relative;
+  left: 10px;
+}
+a{
   color: black;
+}
+nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav li {
+  display: inline-block;
 }
 
 .logo{
   color: MediumAquamarine;
+}
+.column {
+  display: inline-flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+div {
+  border: 2px solid black;
 }
