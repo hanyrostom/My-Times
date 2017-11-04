@@ -13,13 +13,10 @@
   width: 100%;
   top: -5px;
   }
-
   .content{
     position: relative;
     top:40px;
   }
-
-
 .mytimes{
   position: relative;
   left: 10px;
@@ -38,11 +35,8 @@ nav {
 }
 nav span {
   display: inline-block;
-
 }
-
 .logo{
-
   display: inline-flex;
   align-items: center;
   max-width: : 100px;
@@ -57,26 +51,21 @@ nav span {
   width: 1200px;
 }
 .imgdv {
-  display: flex;
-  height: 300px;
+    display: flex;
+    height: 300px;
     margin-top: 15px;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
     text-align: center;
-  justify-content: center;
-  flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .column.large {
   width: 630px;
-
-
-
 }
-
-
 #main_story{
  background-image: url("../resources/images/img-story-main.png");
 }
@@ -90,9 +79,6 @@ nav span {
 }
 .column.medium {
   width: 300px;
-
-
-
 }
 #cats {
 
@@ -124,8 +110,6 @@ div {
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
-
-
 }
 .bite {
     border-top: 1px solid black;
